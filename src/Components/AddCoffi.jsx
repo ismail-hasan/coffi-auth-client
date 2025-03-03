@@ -15,7 +15,7 @@ const AddCoffi = () => {
         const details = form.details.value
 
         const addCoffi = { name, quantity, suplier, taste, catagory, details }
-        console.log(addCoffi)
+
 
         // data post to server 
         fetch('http://localhost:5000/coffi', {
