@@ -28,7 +28,7 @@ const CoffiCard = ({ coffi, cof, setCof }) => {
                                 icon: "success"
                             });
 
-                            console.log("Before update:", cof);
+                     
                             const updatedCoffiList = cof.filter(c => c._id !== id);
                             console.log("After update:", updatedCoffiList);
 
