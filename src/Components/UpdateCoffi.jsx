@@ -41,7 +41,6 @@ const UpdateCoffi = () => {
                     })
                     navigate("/")
                 }
-                console.log(data)
             })
     }
 

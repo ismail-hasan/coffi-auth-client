@@ -15,10 +15,8 @@ const Login = () => {
         SignInUser(email, password)
             .then(results => {
                 const user = results.user
-                console.log()
                 const lastSignInTime = user?.metadata?.lastSignInTime
                 const loginUser = { email, lastSignInTime }
-                console.log(loginUser)
 
 
                 // update last login data
